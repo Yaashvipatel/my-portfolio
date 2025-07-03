@@ -8,17 +8,16 @@ function App() {
       {/* Banner + Profile Image */}
       <header className="relative w-full h-64 bg-gray-300">
         <img
-  src={`${process.env.PUBLIC_URL}/banner.jpg`}
-  alt="Banner"
-  className="w-full h-full object-cover"
-/>
-
+          src={`${process.env.PUBLIC_URL}/banner.jpg`}
+          alt="Banner"
+          className="w-full h-full object-cover"
+        />
         <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-16 w-40 h-40 rounded-full border-4 border-white shadow-lg overflow-hidden bg-white">
           <img
-  src={`${process.env.PUBLIC_URL}/yaashi.jpg`}
-  alt="Yaashvi Patel"
-  className="w-full h-full object-cover"
-/>
+            src={`${process.env.PUBLIC_URL}/yaashi.jpg`}
+            alt="Yaashvi Patel"
+            className="w-full h-full object-cover"
+          />
         </div>
       </header>
 
